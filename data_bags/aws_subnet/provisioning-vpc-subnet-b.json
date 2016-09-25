@@ -1,0 +1,7 @@
+{
+  "id": "provisioning-vpc-subnet-b",
+  "reference": {
+    "id": "subnet-b7a8cbc1"
+  },
+  "driver_url": "aws::eu-west-1"
+}

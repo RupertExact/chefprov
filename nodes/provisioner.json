@@ -1,0 +1,2073 @@
+{
+  "name": "provisioner",
+  "normal": {
+    "tags": [
+
+    ]
+  },
+  "automatic": {
+    "cpu": {
+      "0": {
+        "cores": 4,
+        "vendor_id": "GenuineIntel",
+        "family": "198",
+        "model": "14857",
+        "stepping": "9",
+        "physical_id": "CPU0",
+        "model_name": "Intel64 Family 6 Model 58 Stepping 9",
+        "mhz": "2701",
+        "cache_size": "256 KB"
+      },
+      "total": 8,
+      "cores": 4,
+      "real": 1
+    },
+    "filesystem": {
+      "C:": {
+        "kb_size": 217219088,
+        "kb_available": 130925289,
+        "kb_used": 86293799,
+        "percent_used": 39,
+        "mount": "C:",
+        "fs_type": "ntfs",
+        "volume_name": ""
+      },
+      "D:": {
+        "kb_size": 500104687,
+        "kb_available": 173715619,
+        "kb_used": 326389068,
+        "percent_used": 65,
+        "mount": "D:",
+        "fs_type": "ntfs",
+        "volume_name": "DATA"
+      }
+    },
+    "kernel": {
+      "os_info": {
+        "boot_device": "\\Device\\HarddiskVolume2",
+        "build_number": "14393",
+        "build_type": "Multiprocessor Free",
+        "caption": "Microsoft Windows 10 Pro",
+        "code_set": "1252",
+        "country_code": "1",
+        "creation_class_name": "Win32_OperatingSystem",
+        "cs_creation_class_name": "Win32_ComputerSystem",
+        "csd_version": null,
+        "cs_name": "LENOVO",
+        "current_time_zone": 120,
+        "data_execution_prevention_32_bit_applications": true,
+        "data_execution_prevention_available": true,
+        "data_execution_prevention_drivers": true,
+        "data_execution_prevention_support_policy": 2,
+        "debug": false,
+        "description": "",
+        "distributed": false,
+        "encryption_level": 256,
+        "foreground_application_boost": 2,
+        "free_physical_memory": "24696688",
+        "free_space_in_paging_files": "4964800",
+        "free_virtual_memory": "28900252",
+        "install_date": "20160726033356.000000+120",
+        "large_system_cache": null,
+        "last_boot_up_time": "20160917140154.490553+120",
+        "local_date_time": "20160919223121.347000+120",
+        "locale": "0409",
+        "manufacturer": "Microsoft Corporation",
+        "max_number_of_processes": -1,
+        "max_process_memory_size": "137438953344",
+        "mui_languages": [
+          "en-US"
+        ],
+        "name": "Microsoft Windows 10 Pro|C:\\WINDOWS|\\Device\\Harddisk0\\Partition4",
+        "number_of_licensed_users": 0,
+        "number_of_processes": 173,
+        "number_of_users": 2,
+        "operating_system_sku": 48,
+        "organization": "",
+        "os_architecture": "64-bit",
+        "os_language": 1033,
+        "os_product_suite": 256,
+        "os_type": 18,
+        "other_type_description": null,
+        "pae_enabled": null,
+        "plus_product_id": null,
+        "plus_version_number": null,
+        "portable_operating_system": false,
+        "primary": true,
+        "product_type": 1,
+        "registered_user": "rupert.broad@gmail.com",
+        "serial_number": "00330-80000-00000-AA059",
+        "service_pack_major_version": 0,
+        "service_pack_minor_version": 0,
+        "size_stored_in_paging_files": "4980736",
+        "status": "OK",
+        "suite_mask": 272,
+        "system_device": "\\Device\\HarddiskVolume4",
+        "system_directory": "C:\\WINDOWS\\system32",
+        "system_drive": "C:",
+        "total_swap_space_size": null,
+        "total_virtual_memory_size": "38349680",
+        "total_visible_memory_size": "33368944",
+        "version": "10.0.14393",
+        "windows_directory": "C:\\WINDOWS"
+      },
+      "name": "Microsoft Windows 10 Pro",
+      "release": "10.0.14393",
+      "version": "10.0.14393  Build 14393",
+      "os": "WINNT",
+      "cs_info": {
+        "admin_password_status": 0,
+        "automatic_managed_pagefile": true,
+        "automatic_reset_boot_option": true,
+        "automatic_reset_capability": true,
+        "boot_option_on_limit": null,
+        "boot_option_on_watch_dog": null,
+        "boot_rom_supported": true,
+        "boot_status": null,
+        "bootup_state": "Normal boot",
+        "caption": "LENOVO",
+        "chassis_bootup_state": 2,
+        "chassis_sku_number": "LENOVO_MT_2438",
+        "creation_class_name": "Win32_ComputerSystem",
+        "current_time_zone": 120,
+        "daylight_in_effect": true,
+        "description": "AT/AT COMPATIBLE",
+        "dns_host_name": "Lenovo",
+        "domain": "WORKGROUP",
+        "domain_role": 0,
+        "enable_daylight_savings_time": true,
+        "front_panel_reset_status": 2,
+        "hypervisor_present": true,
+        "infrared_supported": false,
+        "initial_load_info": null,
+        "install_date": null,
+        "keyboard_password_status": 2,
+        "last_load_info": null,
+        "manufacturer": "LENOVO",
+        "model": "243852U",
+        "name": "LENOVO",
+        "name_format": null,
+        "network_server_mode_enabled": true,
+        "number_of_logical_processors": 8,
+        "number_of_processors": 1,
+        "oem_string_array": null,
+        "part_of_domain": false,
+        "pause_after_reset": "-1",
+        "pc_system_type": 2,
+        "pc_system_type_ex": 2,
+        "power_management_capabilities": null,
+        "power_management_supported": null,
+        "power_on_password_status": 0,
+        "power_state": 0,
+        "power_supply_state": 2,
+        "primary_owner_contact": null,
+        "primary_owner_name": "rupert.broad@gmail.com",
+        "reset_capability": 1,
+        "reset_count": -1,
+        "reset_limit": -1,
+        "roles": [
+          "LM_Workstation",
+          "LM_Server",
+          "NT",
+          "Potential_Browser",
+          "Master_Browser"
+        ],
+        "status": "OK",
+        "support_contact_description": null,
+        "system_family": "ThinkPad W530",
+        "system_sku_number": "LENOVO_MT_2438",
+        "system_startup_delay": null,
+        "system_startup_options": null,
+        "system_startup_setting": null,
+        "system_type": "x64-based PC",
+        "thermal_state": 2,
+        "total_physical_memory": "34169798656",
+        "user_name": "Lenovo\\Rupert",
+        "wake_up_type": 6,
+        "workgroup": "WORKGROUP"
+      },
+      "machine": "x86_64"
+    },
+    "memory": {
+      "swap": {
+        "total": "4980736kB",
+        "free": "4964800kB"
+      },
+      "total": "33368944kB",
+      "free": "24696544kB"
+    },
+    "network": {
+      "interfaces": {
+        "0x9": {
+          "configuration": {
+            "arp_always_source_route": null,
+            "arp_use_ether_snap": null,
+            "caption": "[00000003] Hyper-V Virtual Ethernet Adapter",
+            "database_path": "%SystemRoot%\\System32\\drivers\\etc",
+            "dead_gw_detect_enabled": null,
+            "default_ip_gateway": null,
+            "default_tos": null,
+            "default_ttl": null,
+            "description": "Hyper-V Virtual Ethernet Adapter",
+            "dhcp_enabled": true,
+            "dhcp_lease_expires": null,
+            "dhcp_lease_obtained": null,
+            "dhcp_server": "255.255.255.255",
+            "dns_domain": null,
+            "dns_domain_suffix_search_order": [
+              "net"
+            ],
+            "dns_enabled_for_wins_resolution": false,
+            "dns_host_name": "Lenovo",
+            "dns_server_search_order": null,
+            "domain_dns_registration_enabled": false,
+            "forward_buffer_memory": null,
+            "full_dns_registration_enabled": true,
+            "gateway_cost_metric": null,
+            "igmp_level": null,
+            "index": 3,
+            "interface_index": 9,
+            "ip_address": [
+              "172.16.0.1",
+              "fe80::1199:ef96:d607:9656"
+            ],
+            "ip_connection_metric": 15,
+            "ip_enabled": true,
+            "ip_filter_security_enabled": false,
+            "ip_port_security_enabled": null,
+            "ip_sec_permit_ip_protocols": [
+
+            ],
+            "ip_sec_permit_tcp_ports": [
+
+            ],
+            "ip_sec_permit_udp_ports": [
+
+            ],
+            "ip_subnet": [
+              "255.240.0.0",
+              "64"
+            ],
+            "ip_use_zero_broadcast": null,
+            "ipx_address": null,
+            "ipx_enabled": null,
+            "ipx_frame_type": null,
+            "ipx_media_type": null,
+            "ipx_network_number": null,
+            "ipx_virtual_net_number": null,
+            "keep_alive_interval": null,
+            "keep_alive_time": null,
+            "mac_address": "00:15:5D:27:4E:40",
+            "mtu": null,
+            "num_forward_packets": null,
+            "pmtubh_detect_enabled": null,
+            "pmtu_discovery_enabled": null,
+            "service_name": "VMSMP",
+            "setting_id": "{329AF208-BD44-48E2-B3E5-899C897377C9}",
+            "tcpip_netbios_options": 0,
+            "tcp_max_connect_retransmissions": null,
+            "tcp_max_data_retransmissions": null,
+            "tcp_num_connections": null,
+            "tcp_use_rfc1122_urgent_pointer": null,
+            "tcp_window_size": null,
+            "wins_enable_lm_hosts_lookup": true,
+            "wins_host_lookup_file": null,
+            "wins_primary_server": null,
+            "wins_scope_id": "",
+            "wins_secondary_server": null
+          },
+          "instance": {
+            "adapter_type": "Ethernet 802.3",
+            "adapter_type_id": 0,
+            "auto_sense": null,
+            "availability": 3,
+            "caption": "[00000003] Hyper-V Virtual Ethernet Adapter",
+            "config_manager_error_code": 0,
+            "config_manager_user_config": false,
+            "creation_class_name": "Win32_NetworkAdapter",
+            "description": "Hyper-V Virtual Ethernet Adapter",
+            "device_id": "3",
+            "error_cleared": null,
+            "error_description": null,
+            "guid": "{329AF208-BD44-48E2-B3E5-899C897377C9}",
+            "index": 3,
+            "install_date": null,
+            "installed": true,
+            "interface_index": 9,
+            "last_error_code": null,
+            "mac_address": "00:15:5D:27:4E:40",
+            "manufacturer": "Microsoft",
+            "max_number_controlled": 0,
+            "max_speed": null,
+            "name": "Hyper-V Virtual Ethernet Adapter",
+            "net_connection_id": "vEthernet (HNS Internal NIC)",
+            "net_connection_status": 2,
+            "net_enabled": true,
+            "network_addresses": null,
+            "permanent_address": null,
+            "physical_adapter": true,
+            "pnp_device_id": "ROOT\\VMS_MP\\0000",
+            "power_management_capabilities": null,
+            "power_management_supported": false,
+            "product_name": "Hyper-V Virtual Ethernet Adapter",
+            "service_name": "VMSMP",
+            "speed": "10000000000",
+            "status": null,
+            "status_info": null,
+            "system_creation_class_name": "Win32_ComputerSystem",
+            "system_name": "LENOVO",
+            "time_of_last_reset": "20160917140154.490553+120"
+          },
+          "counters": {
+
+          },
+          "addresses": {
+            "172.16.0.1": {
+              "prefixlen": "12",
+              "netmask": "255.240.0.0",
+              "broadcast": "172.31.255.255",
+              "family": "inet"
+            },
+            "fe80::1199:ef96:d607:9656": {
+              "prefixlen": "64",
+              "family": "inet6",
+              "scope": "Link"
+            },
+            "00:15:5D:27:4E:40": {
+              "family": "lladdr"
+            }
+          },
+          "mtu": null,
+          "type": "Ethernet 802.3",
+          "arp": {
+            "172.31.255.255": "ff:ff:ff:ff:ff:ff",
+            "224.0.0.2": "01:00:5e:00:00:02",
+            "224.0.0.22": "01:00:5e:00:00:16",
+            "224.0.0.251": "01:00:5e:00:00:fb",
+            "224.0.0.252": "01:00:5e:00:00:fc",
+            "239.255.255.250": "01:00:5e:7f:ff:fa",
+            "255.255.255.255": "ff:ff:ff:ff:ff:ff"
+          },
+          "encapsulation": "Ethernet"
+        },
+        "0x21": {
+          "configuration": {
+            "arp_always_source_route": null,
+            "arp_use_ether_snap": null,
+            "caption": "[00000023] Hyper-V Virtual Ethernet Adapter",
+            "database_path": "%SystemRoot%\\System32\\drivers\\etc",
+            "dead_gw_detect_enabled": null,
+            "default_ip_gateway": [
+              "192.168.1.1"
+            ],
+            "default_tos": null,
+            "default_ttl": null,
+            "description": "Hyper-V Virtual Ethernet Adapter #2",
+            "dhcp_enabled": true,
+            "dhcp_lease_expires": "20160920205519.000000+120",
+            "dhcp_lease_obtained": "20160919205519.000000+120",
+            "dhcp_server": "192.168.1.1",
+            "dns_domain": "net",
+            "dns_domain_suffix_search_order": [
+              "net"
+            ],
+            "dns_enabled_for_wins_resolution": false,
+            "dns_host_name": "Lenovo",
+            "dns_server_search_order": [
+              "8.8.8.8",
+              "8.8.4.4",
+              "192.168.192.1",
+              "192.168.1.1"
+            ],
+            "domain_dns_registration_enabled": false,
+            "forward_buffer_memory": null,
+            "full_dns_registration_enabled": true,
+            "gateway_cost_metric": [
+              0
+            ],
+            "igmp_level": null,
+            "index": 23,
+            "interface_index": 33,
+            "ip_address": [
+              "192.168.1.79",
+              "fe80::cc14:737:3c35:54f0",
+              "fd00::1:64b0:fb12:42d8:8571",
+              "fd00::1:cc14:737:3c35:54f0"
+            ],
+            "ip_connection_metric": 25,
+            "ip_enabled": true,
+            "ip_filter_security_enabled": false,
+            "ip_port_security_enabled": null,
+            "ip_sec_permit_ip_protocols": [
+
+            ],
+            "ip_sec_permit_tcp_ports": [
+
+            ],
+            "ip_sec_permit_udp_ports": [
+
+            ],
+            "ip_subnet": [
+              "255.255.255.0",
+              "64",
+              "128",
+              "64"
+            ],
+            "ip_use_zero_broadcast": null,
+            "ipx_address": null,
+            "ipx_enabled": null,
+            "ipx_frame_type": null,
+            "ipx_media_type": null,
+            "ipx_network_number": null,
+            "ipx_virtual_net_number": null,
+            "keep_alive_interval": null,
+            "keep_alive_time": null,
+            "mac_address": "84:3A:4B:AD:59:84",
+            "mtu": null,
+            "num_forward_packets": null,
+            "pmtubh_detect_enabled": null,
+            "pmtu_discovery_enabled": null,
+            "service_name": "VMSMP",
+            "setting_id": "{F74AAE53-F8DE-4E13-BA2F-8F949E630E35}",
+            "tcpip_netbios_options": 0,
+            "tcp_max_connect_retransmissions": null,
+            "tcp_max_data_retransmissions": null,
+            "tcp_num_connections": null,
+            "tcp_use_rfc1122_urgent_pointer": null,
+            "tcp_window_size": null,
+            "wins_enable_lm_hosts_lookup": true,
+            "wins_host_lookup_file": null,
+            "wins_primary_server": null,
+            "wins_scope_id": "",
+            "wins_secondary_server": null
+          },
+          "instance": {
+            "adapter_type": "Ethernet 802.3",
+            "adapter_type_id": 0,
+            "auto_sense": null,
+            "availability": 3,
+            "caption": "[00000023] Hyper-V Virtual Ethernet Adapter",
+            "config_manager_error_code": 0,
+            "config_manager_user_config": false,
+            "creation_class_name": "Win32_NetworkAdapter",
+            "description": "Hyper-V Virtual Ethernet Adapter",
+            "device_id": "23",
+            "error_cleared": null,
+            "error_description": null,
+            "guid": "{F74AAE53-F8DE-4E13-BA2F-8F949E630E35}",
+            "index": 23,
+            "install_date": null,
+            "installed": true,
+            "interface_index": 33,
+            "last_error_code": null,
+            "mac_address": "84:3A:4B:AD:59:84",
+            "manufacturer": "Microsoft",
+            "max_number_controlled": 0,
+            "max_speed": null,
+            "name": "Hyper-V Virtual Ethernet Adapter #2",
+            "net_connection_id": "vEthernet (external)",
+            "net_connection_status": 2,
+            "net_enabled": true,
+            "network_addresses": null,
+            "permanent_address": null,
+            "physical_adapter": true,
+            "pnp_device_id": "ROOT\\VMS_MP\\0001",
+            "power_management_capabilities": null,
+            "power_management_supported": false,
+            "product_name": "Hyper-V Virtual Ethernet Adapter",
+            "service_name": "VMSMP",
+            "speed": "243000000",
+            "status": null,
+            "status_info": null,
+            "system_creation_class_name": "Win32_ComputerSystem",
+            "system_name": "LENOVO",
+            "time_of_last_reset": "20160917140154.490553+120"
+          },
+          "counters": {
+
+          },
+          "addresses": {
+            "192.168.1.79": {
+              "prefixlen": "24",
+              "netmask": "255.255.255.0",
+              "broadcast": "192.168.1.255",
+              "family": "inet"
+            },
+            "fe80::cc14:737:3c35:54f0": {
+              "prefixlen": "64",
+              "family": "inet6",
+              "scope": "Link"
+            },
+            "fd00::1:64b0:fb12:42d8:8571": {
+              "prefixlen": "128",
+              "family": "inet6"
+            },
+            "fd00::1:cc14:737:3c35:54f0": {
+              "prefixlen": "64",
+              "family": "inet6"
+            },
+            "84:3A:4B:AD:59:84": {
+              "family": "lladdr"
+            }
+          },
+          "mtu": null,
+          "type": "Ethernet 802.3",
+          "arp": {
+            "192.168.1.1": "48:f8:b3:b0:80:26",
+            "192.168.1.5": "6c:ad:f8:e2:b1:8f",
+            "192.168.1.255": "ff:ff:ff:ff:ff:ff",
+            "224.0.0.2": "01:00:5e:00:00:02",
+            "224.0.0.22": "01:00:5e:00:00:16",
+            "224.0.0.251": "01:00:5e:00:00:fb",
+            "224.0.0.252": "01:00:5e:00:00:fc",
+            "239.255.255.250": "01:00:5e:7f:ff:fa",
+            "255.255.255.255": "ff:ff:ff:ff:ff:ff"
+          },
+          "encapsulation": "Ethernet"
+        },
+        "0x1d": {
+          "configuration": {
+            "arp_always_source_route": null,
+            "arp_use_ether_snap": null,
+            "caption": "[00000025] Hyper-V Virtual Ethernet Adapter",
+            "database_path": "%SystemRoot%\\System32\\drivers\\etc",
+            "dead_gw_detect_enabled": null,
+            "default_ip_gateway": null,
+            "default_tos": null,
+            "default_ttl": null,
+            "description": "Hyper-V Virtual Ethernet Adapter #3",
+            "dhcp_enabled": false,
+            "dhcp_lease_expires": null,
+            "dhcp_lease_obtained": null,
+            "dhcp_server": null,
+            "dns_domain": null,
+            "dns_domain_suffix_search_order": [
+              "net"
+            ],
+            "dns_enabled_for_wins_resolution": false,
+            "dns_host_name": "Lenovo",
+            "dns_server_search_order": null,
+            "domain_dns_registration_enabled": false,
+            "forward_buffer_memory": null,
+            "full_dns_registration_enabled": true,
+            "gateway_cost_metric": null,
+            "igmp_level": null,
+            "index": 25,
+            "interface_index": 29,
+            "ip_address": [
+              "10.0.75.1",
+              "fe80::5822:58a9:3d19:8be5"
+            ],
+            "ip_connection_metric": 15,
+            "ip_enabled": true,
+            "ip_filter_security_enabled": false,
+            "ip_port_security_enabled": null,
+            "ip_sec_permit_ip_protocols": [
+
+            ],
+            "ip_sec_permit_tcp_ports": [
+
+            ],
+            "ip_sec_permit_udp_ports": [
+
+            ],
+            "ip_subnet": [
+              "255.255.255.0",
+              "64"
+            ],
+            "ip_use_zero_broadcast": null,
+            "ipx_address": null,
+            "ipx_enabled": null,
+            "ipx_frame_type": null,
+            "ipx_media_type": null,
+            "ipx_network_number": null,
+            "ipx_virtual_net_number": null,
+            "keep_alive_interval": null,
+            "keep_alive_time": null,
+            "mac_address": "00:15:5D:01:4F:05",
+            "mtu": null,
+            "num_forward_packets": null,
+            "pmtubh_detect_enabled": null,
+            "pmtu_discovery_enabled": null,
+            "service_name": "VMSMP",
+            "setting_id": "{E409A184-84BC-4438-82FE-8A31B5E7923F}",
+            "tcpip_netbios_options": 0,
+            "tcp_max_connect_retransmissions": null,
+            "tcp_max_data_retransmissions": null,
+            "tcp_num_connections": null,
+            "tcp_use_rfc1122_urgent_pointer": null,
+            "tcp_window_size": null,
+            "wins_enable_lm_hosts_lookup": true,
+            "wins_host_lookup_file": null,
+            "wins_primary_server": null,
+            "wins_scope_id": "",
+            "wins_secondary_server": null
+          },
+          "instance": {
+            "adapter_type": "Ethernet 802.3",
+            "adapter_type_id": 0,
+            "auto_sense": null,
+            "availability": 3,
+            "caption": "[00000025] Hyper-V Virtual Ethernet Adapter",
+            "config_manager_error_code": 0,
+            "config_manager_user_config": false,
+            "creation_class_name": "Win32_NetworkAdapter",
+            "description": "Hyper-V Virtual Ethernet Adapter",
+            "device_id": "25",
+            "error_cleared": null,
+            "error_description": null,
+            "guid": "{E409A184-84BC-4438-82FE-8A31B5E7923F}",
+            "index": 25,
+            "install_date": null,
+            "installed": true,
+            "interface_index": 29,
+            "last_error_code": null,
+            "mac_address": "00:15:5D:01:4F:05",
+            "manufacturer": "Microsoft",
+            "max_number_controlled": 0,
+            "max_speed": null,
+            "name": "Hyper-V Virtual Ethernet Adapter #3",
+            "net_connection_id": "vEthernet (DockerNAT)",
+            "net_connection_status": 2,
+            "net_enabled": true,
+            "network_addresses": null,
+            "permanent_address": null,
+            "physical_adapter": true,
+            "pnp_device_id": "ROOT\\VMS_MP\\0002",
+            "power_management_capabilities": null,
+            "power_management_supported": false,
+            "product_name": "Hyper-V Virtual Ethernet Adapter",
+            "service_name": "VMSMP",
+            "speed": "10000000000",
+            "status": null,
+            "status_info": null,
+            "system_creation_class_name": "Win32_ComputerSystem",
+            "system_name": "LENOVO",
+            "time_of_last_reset": "20160917140154.490553+120"
+          },
+          "counters": {
+
+          },
+          "addresses": {
+            "10.0.75.1": {
+              "prefixlen": "24",
+              "netmask": "255.255.255.0",
+              "broadcast": "10.0.75.255",
+              "family": "inet"
+            },
+            "fe80::5822:58a9:3d19:8be5": {
+              "prefixlen": "64",
+              "family": "inet6",
+              "scope": "Link"
+            },
+            "00:15:5D:01:4F:05": {
+              "family": "lladdr"
+            }
+          },
+          "mtu": null,
+          "type": "Ethernet 802.3",
+          "arp": {
+            "10.0.75.255": "ff:ff:ff:ff:ff:ff",
+            "224.0.0.2": "01:00:5e:00:00:02",
+            "224.0.0.22": "01:00:5e:00:00:16",
+            "224.0.0.251": "01:00:5e:00:00:fb",
+            "224.0.0.252": "01:00:5e:00:00:fc",
+            "239.255.255.250": "01:00:5e:7f:ff:fa"
+          },
+          "encapsulation": "Ethernet"
+        }
+      },
+      "default_gateway": "192.168.1.1",
+      "default_interface": "0x21"
+    },
+    "counters": {
+      "network": {
+
+      }
+    },
+    "ipaddress": "192.168.1.79",
+    "macaddress": "84:3A:4B:AD:59:84",
+    "ip6address": "fe80::1199:ef96:d607:9656",
+    "os": "windows",
+    "os_version": "10.0.14393",
+    "platform": "windows",
+    "platform_version": "10.0.14393",
+    "platform_family": "windows",
+    "uptime_seconds": 203378,
+    "uptime": "2 days 08 hours 29 minutes 38 seconds",
+    "virtualization": {
+      "systems": {
+
+      }
+    },
+    "languages": {
+      "perl": {
+        "version": "5.8.8",
+        "archname": "msys-64int"
+      },
+      "powershell": {
+        "version": "5.1.14393.187",
+        "ws_man_stack_version": "3.0",
+        "serialization_version": "1.1.0.1",
+        "clr_version": "4.0.30319.42000",
+        "build_version": "10.0.14393.187",
+        "compatible_versions": [
+          "1.0",
+          "2.0",
+          "3.0",
+          "4.0",
+          "5.0",
+          "5.1.14393.187"
+        ],
+        "remoting_protocol_version": "2.3"
+      },
+      "ruby": {
+        "platform": "i386-mingw32",
+        "version": "2.1.8",
+        "release_date": "2015-12-16",
+        "target": "i386-w64-mingw32",
+        "target_cpu": "i386",
+        "target_vendor": "w64",
+        "target_os": "mingw32",
+        "host": "i686-w64-mingw32",
+        "host_cpu": "i686",
+        "host_os": "mingw32",
+        "host_vendor": "w64",
+        "bin_dir": "C:/opscode/chefdk/embedded/bin",
+        "ruby_bin": "C:/opscode/chefdk/embedded/bin/ruby",
+        "gems_dir": "C:/opscode/chefdk/embedded/lib/ruby/gems/2.1.0",
+        "gem_bin": "C:/opscode/chefdk/embedded/bin/gem"
+      }
+    },
+    "chef_packages": {
+      "chef": {
+        "version": "12.13.37",
+        "chef_root": "C:/opscode/chefdk/embedded/lib/ruby/gems/2.1.0/gems/chef-12.13.37-universal-mingw32/lib"
+      },
+      "ohai": {
+        "version": "8.19.1",
+        "ohai_root": "C:/opscode/chefdk/embedded/lib/ruby/gems/2.1.0/gems/ohai-8.19.1/lib/ohai"
+      }
+    },
+    "dmi": {
+
+    },
+    "cloud_v2": null,
+    "command": {
+
+    },
+    "hostname": "Lenovo",
+    "machinename": "LENOVO",
+    "fqdn": "Lenovo.net",
+    "domain": "net",
+    "keys": {
+      "ssh": {
+
+      }
+    },
+    "fips": {
+      "kernel": {
+        "enabled": false
+      }
+    },
+    "ohai_time": 1474317097.10974,
+    "packages": {
+      "Git version 2.9.2": {
+        "version": "2.9.2",
+        "publisher": "The Git Development Community",
+        "installdate": "20160906"
+      },
+      "Lenovo Auto Scroll Utility": {
+        "version": "2.17",
+        "publisher": "Lenovo"
+      },
+      "Microsoft Azure Compute Emulator - v2.9.1": {
+        "version": "2.9.6499.4",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160619"
+      },
+      "Microsoft Office 365 Business - en-us": {
+        "version": "16.0.7167.2055",
+        "publisher": "Microsoft Corporation"
+      },
+      "Microsoft OneNote Home and Student 2016 - en-us": {
+        "version": "16.0.7167.2055",
+        "publisher": "Microsoft Corporation"
+      },
+      "Lenovo On Screen Display": {
+        "version": "8.80.10",
+        "publisher": "Lenovo"
+      },
+      "Lenovo Power Management Driver": {
+        "version": "1.67.12.14",
+        "publisher": "Lenovo"
+      },
+      "Sublime Text Build 3114": {
+        "publisher": "Sublime HQ Pty Ltd",
+        "installdate": "20160906"
+      },
+      "Synaptics Pointing Device Driver": {
+        "version": "19.0.17.85",
+        "publisher": "Synaptics Incorporated"
+      },
+      "WinRAR 5.30 beta 5 (64-bit)": {
+        "version": "5.30.5",
+        "publisher": "win.rar GmbH"
+      },
+      "Microsoft SQL Server 2014 Transact-SQL ScriptDom ": {
+        "version": "12.0.2000.8",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20151228"
+      },
+      "IIS Express Application Compatibility Database for x64": {
+
+      },
+      "ThinkPad Settings Dependency": {
+        "version": "3.0.1.32",
+        "publisher": "Lenovo",
+        "installdate": "20160902"
+      },
+      "Microsoft .NET Execution Environment (DNX) 1-rc1 (x64) for .NET Framework 4.6": {
+        "version": "1.0.11123.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20151228"
+      },
+      "IIS 10.0 Express": {
+        "version": "10.0.1736",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160729"
+      },
+      "Intel(R) Management Engine Components": {
+        "version": "1.0.0.0",
+        "publisher": "Intel Corporation",
+        "installdate": "20151220"
+      },
+      "Microsoft SQL Server 2014 Management Objects  (x64)": {
+        "version": "12.0.2000.8",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20151228"
+      },
+      "Microsoft SQL Server 2016 Management Objects  (x64)": {
+        "version": "13.0.1601.5",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "ConEmu 160914.x64": {
+        "version": "11.160.9140",
+        "publisher": "ConEmu-Maximus5",
+        "installdate": "20160917"
+      },
+      "ISO Recorder": {
+        "version": "3.1.0",
+        "publisher": "Alex Feinman",
+        "installdate": "20151220"
+      },
+      "Microsoft Visual C++ 2012 x64 Minimum Runtime - 11.0.60610": {
+        "version": "11.0.60610",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20151228"
+      },
+      "Active Directory Authentication Library for SQL Server": {
+        "version": "13.0.1601.5",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "Microsoft Build Tools Language Resources 14.0 (amd64)": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "Intel® PROSet/Wireless WiFi Software": {
+        "version": "18.40.0.0775",
+        "publisher": "Intel Corporation",
+        "installdate": "20160325"
+      },
+      "Microsoft Visual Studio 2015 Update 3 Diagnostic Tools - amd64": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "Microsoft Visual Studio 2015 Performance Collection Tools - ENU": {
+        "version": "14.0.23107",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20151228"
+      },
+      "Microsoft Azure Libraries for .NET – v2.8": {
+        "version": "2.8.1111.221",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20151228"
+      },
+      "Windows Azure Active Directory Module for Windows PowerShell": {
+        "version": "1.0.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160210"
+      },
+      "Microsoft SQL Server 2012 Native Client ": {
+        "version": "11.0.2100.60",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20151228"
+      },
+      "Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.4148": {
+        "version": "9.0.30729.4148",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20151220"
+      },
+      "Microsoft Web Platform Installer 5.0": {
+        "version": "5.0.50430.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20151228"
+      },
+      "Microsoft Visual Studio Team Foundation Server 2015 Update 3 CTP1 Storyboarding (x64)": {
+        "version": "14.98.25331",
+        "publisher": "Microsoft",
+        "installdate": "20160801"
+      },
+      "Microsoft .NET Version Manager (x64) 1.0.0-rc1": {
+        "version": "1.0.11123.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20151228"
+      },
+      "Windows Software Development Kit DirectX x64 Remote": {
+        "version": "8.100.25984",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20151228"
+      },
+      "Microsoft Azure Authoring Tools - v2.8": {
+        "version": "2.8.6485.4",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20151228"
+      },
+      "Microsoft Visual Studio 2015 VsGraphics Helper Dependencies": {
+        "version": "14.0.23107",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20151228"
+      },
+      "Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.6161": {
+        "version": "9.0.30729.6161",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20151221"
+      },
+      "Visual C++ IDE x64 Package": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "Microsoft Visual Studio 2015 Diagnostic Tools - amd64": {
+        "version": "14.0.23107",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20151228"
+      },
+      "Microsoft Visual Studio Team Foundation Server 2015 Update 3 CTP1 Office Integration (x64)": {
+        "version": "14.98.25331",
+        "publisher": "Microsoft",
+        "installdate": "20160801"
+      },
+      "ThinkVantage Fingerprint Software": {
+        "version": "6.0.0.8102",
+        "publisher": "Authentec Inc.",
+        "installdate": "20151220"
+      },
+      "Microsoft Visual C++ 2015 x64 Debug Runtime - 14.0.24212": {
+        "version": "14.0.24212",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "Microsoft Visual C++ 2012 x64 Additional Runtime - 11.0.60610": {
+        "version": "11.0.60610",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20151228"
+      },
+      "Microsoft SQL Server Compact 4.0 SP1 x64 ENU": {
+        "version": "4.0.8876.1",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20151228"
+      },
+      "Microsoft Build Tools 14.0 (amd64)": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "Intel® Trusted Connect Service Client": {
+        "version": "1.42.17.0",
+        "publisher": "Intel Corporation",
+        "installdate": "20151220"
+      },
+      "Dolby Digital Plus Home Theater": {
+        "version": "7.6.3.1",
+        "publisher": "Dolby Laboratories Inc",
+        "installdate": "20151219"
+      },
+      "Visual Studio 2015 Prerequisites - ENU Language Pack": {
+        "version": "14.0.23107",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20151228"
+      },
+      "Microsoft Azure Libraries for .NET – v2.9": {
+        "version": "2.9.0517.110",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160619"
+      },
+      "Intel(R) PRO/Wireless Driver": {
+        "version": "18.40.0000.4099",
+        "publisher": "Intel Corporation",
+        "installdate": "20160325"
+      },
+      "Microsoft Online Services Sign-in Assistant": {
+        "version": "7.250.4551.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160210"
+      },
+      "Microsoft .NET Execution Environment (DNX) 1-rc1 (x64) for .NET Core": {
+        "version": "1.0.11123.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20151228"
+      },
+      "Microsoft Silverlight": {
+        "version": "5.1.50709.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160916"
+      },
+      "Office 16 Click-to-Run Licensing Component": {
+        "version": "16.0.7167.2055",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160911"
+      },
+      "Microsoft Visual C++ 2013 x64 Additional Runtime - 12.0.21005": {
+        "version": "12.0.21005",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20151228"
+      },
+      "Microsoft Web Deploy 3.6": {
+        "version": "3.1238.1962",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "Microsoft System CLR Types for SQL Server 2016": {
+        "version": "13.0.1601.5",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "Windows Software Development Kit for Windows Store Apps DirectX x64 Remote": {
+        "version": "8.100.26936",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20151228"
+      },
+      "Intel(R) ME UninstallLegacy": {
+        "version": "1.0.1.0",
+        "publisher": "Intel Corporation",
+        "installdate": "20151220"
+      },
+      "Microsoft SQL Server 2012 Command Line Utilities ": {
+        "version": "11.0.2100.60",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20151228"
+      },
+      "Microsoft Azure Authoring Tools - v2.9.1": {
+        "version": "2.9.6499.4",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160619"
+      },
+      "Microsoft Visual C++ 2013 x64 Minimum Runtime - 12.0.21005": {
+        "version": "12.0.21005",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20151228"
+      },
+      "Microsoft SQL Server 2014 Express LocalDB ": {
+        "version": "12.0.2000.8",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20151228"
+      },
+      "Microsoft Hive ODBC Driver": {
+        "version": "1.0.5.5",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20151228"
+      },
+      "IIS Express Application Compatibility Database for x86": {
+
+      },
+      "NVIDIA 3D Vision Driver 354.45": {
+        "version": "354.45",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20160417"
+      },
+      "NVIDIA Control Panel 354.45": {
+        "version": "354.45",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20160726"
+      },
+      "NVIDIA Graphics Driver 354.45": {
+        "version": "354.45",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20160417"
+      },
+      "NVIDIA nView 146.78": {
+        "version": "146.78",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20160417"
+      },
+      "NVIDIA WMI 2.22.0": {
+        "version": "2.22.0",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20160417"
+      },
+      "NVIDIA Optimus Update 2.5.15.54": {
+        "version": "2.5.15.54",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20160417"
+      },
+      "NVIDIA HD Audio Driver 1.3.34.4": {
+        "version": "1.3.34.4",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20160417"
+      },
+      "NVIDIA Install Application": {
+        "version": "2.1002.175.1474",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20160726"
+      },
+      "NVIDIA Update Core": {
+        "version": "2.5.15.54",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20160417"
+      },
+      "Microsoft Visual Studio Team Foundation Server 2015 Update 3 CTP1 Storyboarding Language Pack (x64) - ENU": {
+        "version": "14.98.25331",
+        "publisher": "Microsoft",
+        "installdate": "20160801"
+      },
+      "Lenovo Solution Center": {
+        "version": "3.3.003.00",
+        "publisher": "Lenovo",
+        "installdate": "20160626"
+      },
+      "Lenovo System Interface Foundation": {
+        "version": "1.0.066.00",
+        "publisher": "Lenovo",
+        "installdate": "20160905"
+      },
+      "AWS Command Line Interface": {
+        "version": "1.10.63",
+        "publisher": "Amazon Web Services Developer Relations",
+        "installdate": "20160909"
+      },
+      "Microsoft SQL Server 2016 T-SQL ScriptDom ": {
+        "version": "13.0.1601.5",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "Visual Studio 2015 Prerequisites": {
+        "version": "14.0.23107",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160803"
+      },
+      "Microsoft SQL Server 2016 LocalDB ": {
+        "version": "13.0.1601.5",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "Microsoft Visual Studio Team Foundation Server 2015 Update 3 CTP1 Office Integration Language Pack (x64) - ENU": {
+        "version": "14.98.25331",
+        "publisher": "Microsoft",
+        "installdate": "20160801"
+      },
+      "Microsoft Visual C++ 2015 x64 Additional Runtime - 14.0.24212": {
+        "version": "14.0.24212",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "Microsoft Visual C++ 2015 x64 Minimum Runtime - 14.0.24212": {
+        "version": "14.0.24212",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "Microsoft System CLR Types for SQL Server 2014": {
+        "version": "12.0.2402.29",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20151228"
+      },
+      "Microsoft Visual Studio 2015 Performance Collection Tools": {
+        "version": "14.0.23107",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "Docker": {
+        "version": "2.0.5968",
+        "publisher": "Docker Inc.",
+        "installdate": "20160906"
+      },
+      "Google Chrome": {
+        "version": "53.0.2785.116",
+        "publisher": "Google Inc.",
+        "installdate": "20151220"
+      },
+      "Microsoft Azure Storage Emulator - v4.4": {
+        "version": "4.4.6891.1",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160619"
+      },
+      "Microsoft Help Viewer 2.2": {
+        "version": "2.2.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "Mozilla Firefox 48.0.2 (x86 en-US)": {
+        "version": "48.0.2",
+        "publisher": "Mozilla"
+      },
+      "Mozilla Maintenance Service": {
+        "version": "48.0.2.6079",
+        "publisher": "Mozilla"
+      },
+      "Notepad++": {
+        "version": "6.9.2",
+        "publisher": "Notepad++ Team"
+      },
+      "NVIDIA Stereoscopic 3D Driver": {
+        "version": "7.17.12.6514",
+        "publisher": "NVIDIA Corporation"
+      },
+      "WinSCP 5.7.6": {
+        "version": "5.7.6",
+        "publisher": "Martin Prikryl",
+        "installdate": "20151220"
+      },
+      "Cloud Deployment Project for Microsoft Visual Studio 2015 - v2.9": {
+        "version": "2.9.40630.14",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160729"
+      },
+      "Visual C++ IDE Core Package": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "Visual C++ Library PGO X86 Package": {
+        "version": "14.0.24210",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "Microsoft Visual Studio 2015 Shell (Minimum)": {
+        "version": "14.0.23107",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160803"
+      },
+      "Microsoft .NET Framework 4.6 Targeting Pack (ENU)": {
+        "version": "4.6.00127",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20151228"
+      },
+      "Visual C++ IDE Base Package": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "WCF Data Services Tools for Microsoft Visual Studio 2015": {
+        "version": "5.6.62175.4",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20151228"
+      },
+      "Microsoft Visual Studio 2015 Update 3 Diagnostic Tools - ENU": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "Microsoft ASP.NET and Web Tools 2015.1 (RC1 Update 1) - Visual Studio 2015": {
+        "version": "14.1.20203.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160619"
+      },
+      "Application Insights Tools for Visual Studio 2015": {
+        "version": "7.0.20622.1",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "Microsoft Azure App Service Tools v2.9.1 - Visual Studio 2015": {
+        "version": "14.0.20622.0",
+        "publisher": "Microsoft Corporation"
+      },
+      "Microsoft SQL Server 2016 Management Objects ": {
+        "version": "13.0.1601.5",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "Visual C++ IDE Core Professional Plus Resource Package": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "Microsoft Azure Mobile Services Connected Service": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "MSBuild/NuGet Integration 14.0 (x86)": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "Multi-Device Hybrid Apps using C# - Templates - ENU": {
+        "version": "14.0.23107",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20151228"
+      },
+      "Microsoft Visual C++ 2013 x86 Minimum Runtime - 12.0.21005": {
+        "version": "12.0.21005",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20151228"
+      },
+      "Microsoft Visual Studio 2015 Update 3 Diagnostic Tools - x86": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "Microsoft Visual Studio 2015 Shell (Minimum) Interop Assemblies": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      " Tools for .Net 3.5": {
+        "version": "3.11.50727",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20151228"
+      },
+      "Microsoft Visual Studio 2015 Devenv Resources": {
+        "version": "14.0.23107",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "Microsoft Azure Mobile App SDK V2.0": {
+        "version": "2.0.40201.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160619"
+      },
+      "Microsoft .NET Framework 4.5.1 SDK": {
+        "version": "4.5.51641",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20151228"
+      },
+      "Microsoft .NET Framework 4.5.2 Multi-Targeting Pack": {
+        "version": "4.5.51651",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20151228"
+      },
+      "Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.4148": {
+        "version": "9.0.30729.4148",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20151220"
+      },
+      "Prerequisites for SSDT ": {
+        "version": "13.0.1601.5",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "Microsoft Visual C++ 2015 Redistributable (x86) - 14.0.24210": {
+        "version": "14.0.24210.0",
+        "publisher": "Microsoft Corporation"
+      },
+      "Team Explorer for Microsoft Visual Studio 2015 Update 3.1": {
+        "version": "14.102.25521",
+        "publisher": "Microsoft",
+        "installdate": "20160803"
+      },
+      "Lenovo System Update": {
+        "version": "5.07.0032",
+        "publisher": "Lenovo",
+        "installdate": "20160902"
+      },
+      "Microsoft SQL Server 2014 Management Objects ": {
+        "version": "12.0.2000.8",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20151228"
+      },
+      "Microsoft .NET Framework 4.5.2 Multi-Targeting Pack (ENU)": {
+        "version": "4.5.51209",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20151228"
+      },
+      "Entity Framework 6.1.3 Tools  for Visual Studio 2015 Update 1": {
+        "version": "14.0.41103.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20151228"
+      },
+      "Microsoft .NET Framework 4.6 Targeting Pack": {
+        "version": "4.6.00081",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20151228"
+      },
+      "Microsoft NuGet - Visual Studio 2015": {
+        "version": "3.4.4.1321",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "Microsoft .NET Framework 4.6.1 SDK": {
+        "version": "4.6.01055",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20151228"
+      },
+      "VS Update core components": {
+        "version": "14.0.25425",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160803"
+      },
+      "Microsoft.VisualStudio.Office365": {
+        "version": "1.6.2.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20151228"
+      },
+      "Microsoft Visual C++ 2015 Redistributable (x64) - 14.0.24212": {
+        "version": "14.0.24212.0",
+        "publisher": "Microsoft Corporation"
+      },
+      "TypeScript Tools for Microsoft Visual Studio 2015 1.7.4.0": {
+        "version": "1.7.24720.0",
+        "publisher": "Microsoft Corporation"
+      },
+      "Uninstall Finalizer": {
+        "version": "2.8.31121.1",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20151228"
+      },
+      "Visual C++ MSBuild Base Package": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "Microsoft Visual C++ 2015 x86 Minimum Runtime - 14.0.24212": {
+        "version": "14.0.24212",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "Blend for Visual Studio SDK for .NET 4.5": {
+        "version": "3.0.40218.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20151228"
+      },
+      "Install Finalizer": {
+        "version": "2.9.40701.9",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160729"
+      },
+      "Microsoft Visual C++ 2012 x86 Additional Runtime - 11.0.60610": {
+        "version": "11.0.60610",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20151228"
+      },
+      "AzureTools.Notifications": {
+        "version": "2.9.40701.9",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160729"
+      },
+      "Windows Espc Package": {
+        "version": "14.0.23107",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20151228"
+      },
+      "PreEmptive Analytics Visual Studio Components": {
+        "version": "1.2.5134.1",
+        "publisher": "PreEmptive Solutions",
+        "installdate": "20151228"
+      },
+      "Microsoft Visual Studio 2015 XAML Designer": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "Windows Phone SDK 8.0 Assemblies for Visual Studio 2015": {
+        "version": "14.0.25123",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "Microsoft ASP.NET MVC 4 - Visual Studio 2015 - ENU": {
+        "version": "4.1.41102.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20151228"
+      },
+      "Google Drive": {
+        "version": "1.31.2873.2758",
+        "publisher": "Google, Inc.",
+        "installdate": "20160820"
+      },
+      "Microsoft Visual C++ 2015 Redistributable (x86) - 14.0.24212": {
+        "version": "14.0.24212.0",
+        "publisher": "Microsoft Corporation"
+      },
+      "TypeScript Power Tool": {
+        "version": "1.7.4.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20151228"
+      },
+      "Microsoft SQL Server 2014 T-SQL Language Service ": {
+        "version": "12.0.2000.8",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20151228"
+      },
+      "Microsoft Visual Studio 2015 Profiling Tools": {
+        "version": "14.0.25123",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "Microsoft SQL Server Data Tools - enu (14.0.60519.0)": {
+        "version": "14.0.60519.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "Microsoft VisualStudio JavaScript Project System": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "Microsoft Build Tools Language Resources 14.0 (x86)": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "Visual C++ MSBuild ARM Package": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "Microsoft Azure Mobile Services Tools for Visual Studio - v1.4": {
+        "version": "1.4.30611.1601",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20151228"
+      },
+      "Windows Software Development Kit for Windows Store Apps DirectX x86 Remote": {
+        "version": "8.100.26936",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20151228"
+      },
+      "Microsoft .NET Framework 4.5 Multi-Targeting Pack": {
+        "version": "4.5.50710",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20151228"
+      },
+      "Microsoft Visual Studio Community 2015 - ENU": {
+        "version": "14.0.23107",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "Microsoft Visual Studio 2015 Windows Diagnostic Tools": {
+        "version": "14.0.25425",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160803"
+      },
+      "Dotfuscator and Analytics Community Edition 5.22.0": {
+        "version": "5.22.0.3788",
+        "publisher": "PreEmptive Solutions",
+        "installdate": "20160801"
+      },
+      "Google Update Helper": {
+        "version": "1.3.25.11",
+        "publisher": "Google Inc.",
+        "installdate": "20151220"
+      },
+      "Visual C++ Compiler/Tools X86 Base Resource Package": {
+        "version": "14.0.24210",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "Microsoft ASP.NET Web Pages 2 - Visual Studio 2015 - ENU": {
+        "version": "4.1.41102.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20151228"
+      },
+      "Microsoft Visual Studio 2015 SDK - ENU": {
+        "version": "14.0.23107",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "VIPRE Antivirus": {
+        "version": "9.3.4.3",
+        "publisher": "ThreatTrack Security Inc.",
+        "installdate": "4/14/2016"
+      },
+      "Cloud Explorer - v1.0": {
+        "version": "2.9.40701.9",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160729"
+      },
+      "Microsoft .NET Framework 4.5.1 Multi-Targeting Pack": {
+        "version": "4.5.50932",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20151228"
+      },
+      "Microsoft Build Tools 14.0 (x86)": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "Roslyn Language Services - x86": {
+        "version": "14.0.25425",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160803"
+      },
+      "Microsoft Azure Command Line Tools": {
+        "version": "0.10.2",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160729"
+      },
+      "Update for Microsoft Visual Studio 2015 (KB3165756)": {
+        "version": "14.0.25425",
+        "publisher": "Microsoft Corporation"
+      },
+      "Microsoft Visual Studio 2015 XAML Visual Diagnostics": {
+        "version": "14.0.25425",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160803"
+      },
+      "Microsoft Visual Studio Connected Services": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "Microsoft Azure Tools for Microsoft Visual Studio 2015 - v2.8": {
+        "version": "2.8.31121.1",
+        "publisher": "Microsoft Corporation"
+      },
+      "Microsoft Visual Studio Services Hub": {
+        "version": "1.0.25420.01",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "Visual Studio 2015 Update 3 (KB3022398)": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation"
+      },
+      "Visual C++ Compiler/Tools X86 Base Package": {
+        "version": "14.0.24210",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "Microsoft Visual C++ 2013 Redistributable (x64) - 12.0.21005": {
+        "version": "12.0.21005.1",
+        "publisher": "Microsoft Corporation"
+      },
+      "Microsoft Visual Studio 2015 Shell (Minimum) Resources": {
+        "version": "14.0.23107",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160803"
+      },
+      "Microsoft Visual C++ 2015 x86 Additional Runtime - 14.0.24212": {
+        "version": "14.0.24212",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "Microsoft Portable Library Multi-Targeting Pack": {
+        "version": "14.0.25425.01",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160803"
+      },
+      "Microsoft Azure PowerShell - July 2016": {
+        "version": "1.6.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160729"
+      },
+      "Azure AD Authentication Connected Service": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "Microsoft .NET Framework 4.6.1 Targeting Pack": {
+        "version": "4.6.01055",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20151228"
+      },
+      "Microsoft Visual Studio 2015 XAML Visual Diagnostics - ENU": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "Microsoft SQL Server 2016 T-SQL Language Service ": {
+        "version": "13.0.14500.10",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "Visual Studio Graphics Analyzer": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "Visual C++ MSBuild X86 Package": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "Microsoft Azure Storage Explorer version 0.7": {
+        "version": "0.7",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20151228"
+      },
+      "Microsoft .NET Framework 4.6.1 Targeting Pack (ENU)": {
+        "version": "4.6.01055",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20151228"
+      },
+      "Microsoft Azure Storage Connected Service": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "Office 16 Click-to-Run Extensibility Component": {
+        "version": "16.0.7167.2055",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160911"
+      },
+      "Office 16 Click-to-Run Localization Component": {
+        "version": "16.0.7167.2055",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160911"
+      },
+      "Microsoft Visual Studio 2015 Preparation": {
+        "version": "14.0.23107",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20151228"
+      },
+      "Microsoft Visual C++ 2012 Redistributable (x86) - 11.0.60610": {
+        "version": "11.0.60610.1",
+        "publisher": "Microsoft Corporation"
+      },
+      "Microsoft .NET Framework 4.5.1 RC Multi-Targeting Pack for Windows Store Apps": {
+        "version": "4.5.21005",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20151228"
+      },
+      "Microsoft Expression Blend SDK for .NET 4": {
+        "version": "2.0.20525.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20151228"
+      },
+      "Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161": {
+        "version": "9.0.30729.6161",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20151221"
+      },
+      "Test Tools for Microsoft Visual Studio 2015": {
+        "version": "14.0.23107",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "Microsoft Azure Mobile Services SDK V2.0": {
+        "version": "2.0.20908.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20151228"
+      },
+      "Microsoft Visual C++ 2012 Redistributable (x64) - 11.0.60610": {
+        "version": "11.0.60610.1",
+        "publisher": "Microsoft Corporation"
+      },
+      "Windows Software Development Kit DirectX x86 Remote": {
+        "version": "8.100.25984",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20151228"
+      },
+      "Microsoft .NET Framework 4.5.1 RC Multi-Targeting Pack for Windows Store Apps (ENU)": {
+        "version": "4.5.21005",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20151228"
+      },
+      "Visual Studio 2012 Verification SDK": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "Visual C++ IDE Base Resource Package": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "Microsoft Azure Tools for Microsoft Visual Studio 2015 Core": {
+        "version": "2.9.40701.9",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160729"
+      },
+      "Visual C++ IDE Debugger Package": {
+        "version": "14.0.25425",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160803"
+      },
+      "Microsoft Visual Studio 2015 Update 3 Performance Debugger Web Views": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "Microsoft Azure Quickstarts": {
+        "version": "1.6",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20151228"
+      },
+      "Microsoft Azure Data Factory Tools for Visual Studio 2015": {
+        "version": "0.9.3141.3",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20151228"
+      },
+      "Lenovo Settings - Power": {
+        "version": "2.00.000",
+        "publisher": "Lenovo",
+        "installdate": "20160902"
+      },
+      "Microsoft Azure Tools for Microsoft Visual Studio 2015 - v2.9": {
+        "version": "2.9.40701.9",
+        "publisher": "Microsoft Corporation"
+      },
+      "Microsoft Visual Studio 2015 Update 3.1 Team Explorer Language Pack - ENU": {
+        "version": "14.102.25521",
+        "publisher": "Microsoft",
+        "installdate": "20160803"
+      },
+      "Microsoft Report Viewer Add-On for Visual Studio 2015": {
+        "version": "12.0.2402.20",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20151228"
+      },
+      "Microsoft Visual Studio 2015 Windows Diagnostic Tools - ENU": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "Microsoft Visual Studio 2015 XAML Designer - ENU": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "Microsoft Azure HDInsight Tools for Visual Studio 2015": {
+        "version": "2.0.6000.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160619"
+      },
+      "Microsoft Portable Library Multi-Targeting Pack Language Pack - enu": {
+        "version": "14.0.25420.01",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "Microsoft Visual C++ 2015 x86 Debug Runtime - 14.0.24212": {
+        "version": "14.0.24212",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "Microsoft Agents for Visual Studio 2015 Preview - ENU": {
+        "version": "14.0.23102",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20151228"
+      },
+      "Microsoft .NET Framework 4.6 SDK": {
+        "version": "4.6.00081",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20151228"
+      },
+      "TypeScript Tools for Microsoft Visual Studio 2015": {
+        "version": "1.8.36.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160803"
+      },
+      "Microsoft Blend for Visual Studio 2015 - ENU": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "Visual C++ IDE Common Package": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "Microsoft Visual Studio 2015 XAML Application Timeline - ENU": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "Visual C++ IDE Professional Core Package": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "Microsoft ASP.NET Web Frameworks and Tools - Visual Studio 2015 - ENU": {
+        "version": "5.2.40314.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "Microsoft Azure Data Lake Tools for Visual Studio 2015": {
+        "version": "2.0.6000.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160619"
+      },
+      "Microsoft .NET Framework 4.6.1 Developer Pack": {
+        "version": "4.6.1055",
+        "publisher": "Microsoft Corporation"
+      },
+      "Microsoft Visual C++ 2013 Redistributable (x86) - 12.0.21005": {
+        "version": "12.0.21005.1",
+        "publisher": "Microsoft Corporation"
+      },
+      "Microsoft Agents for Visual Studio 2015 Preview": {
+        "version": "14.0.23102",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20151228"
+      },
+      "Microsoft ASP.NET 5 RC1 Update 1": {
+        "version": "1.0.20204.0",
+        "publisher": "Microsoft Corporation"
+      },
+      "Microsoft .NET Framework 4 Multi-Targeting Pack": {
+        "version": "4.0.30319",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20151228"
+      },
+      "Update for  (KB2504637)": {
+        "version": "1",
+        "publisher": "Microsoft Corporation"
+      },
+      "Visual C++ MSBuild Base Resource Package": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "Microsoft .NET Framework 4.5.1 Multi-Targeting Pack (ENU)": {
+        "version": "4.5.50932",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20151228"
+      },
+      "Chef Development Kit v0.17.17": {
+        "version": "0.17.17.1",
+        "publisher": "Chef Software, Inc.",
+        "installdate": "20160918"
+      },
+      "Intel® PROSet/Wireless Software": {
+        "version": "18.40.0",
+        "publisher": "Intel Corporation"
+      },
+      "Microsoft Blend for Visual Studio 2015": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "Microsoft VisualStudio JavaScript Language Service": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "vs_update3notification": {
+        "version": "14.0.25425",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160803"
+      },
+      "WCF Data Services 5.6.4 Runtime": {
+        "version": "5.6.62175.4",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20151228"
+      },
+      "Metric Collection SDK": {
+        "version": "1.1.0008.00",
+        "publisher": "Lenovo Group Limited",
+        "installdate": "20151220"
+      },
+      "Microsoft Visual Studio Community 2015": {
+        "version": "14.0.23107",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160803"
+      },
+      "Microsoft Visual Studio Community 2015 with Updates": {
+        "version": "14.0.24720.41",
+        "publisher": "Microsoft Corporation"
+      },
+      "Microsoft .NET Core 5.0 SDK": {
+        "version": "1.0.23902",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "Visual C++ IDE Debugger Resource Package": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "Microsoft Visual Studio 2015 Test Tools Language Pack - ENU": {
+        "version": "14.0.23107",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "Microsoft Visual C++ 2012 x86 Minimum Runtime - 11.0.60610": {
+        "version": "11.0.60610",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20151228"
+      },
+      "AWS Tools for Windows": {
+        "version": "3.9.457.0",
+        "publisher": "Amazon Web Services Developer Relations",
+        "installdate": "20160909"
+      },
+      "Azure Resource Manager Tools (VS 2015) - v2.9": {
+        "version": "2.9.40630.14",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160729"
+      },
+      "Visual C++ MSBuild X64 Package": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "Visual C++ IDE Common Resource Package": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "Microsoft Azure Shared Components for Visual Studio 2015 - v1.8": {
+        "version": "1.8.40521.1",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "Intel(R) Processor Graphics": {
+        "version": "10.18.10.4276",
+        "publisher": "Intel Corporation"
+      },
+      "Realtek High Definition Audio Driver": {
+        "version": "6.0.1.7572",
+        "publisher": "Realtek Semiconductor Corp."
+      },
+      "Microsoft Visual C++ 2015 Redistributable (x64) - 14.0.24210": {
+        "version": "14.0.24210.0",
+        "publisher": "Microsoft Corporation"
+      },
+      "Microsoft Visual Studio 2015 XAML Application Timeline": {
+        "version": "14.0.25425",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160803"
+      },
+      "Microsoft Azure Storage Tools - v5.0.0": {
+        "version": "5.0.0.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160619"
+      },
+      "Active Directory Authentication Library for SQL Server (x86)": {
+        "version": "13.0.1601.5",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "Microsoft Visual C++ 2013 x86 Additional Runtime - 12.0.21005": {
+        "version": "12.0.21005",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20151228"
+      },
+      "Microsoft Visual Studio 2015 Devenv": {
+        "version": "14.0.23107",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "Windows Espc Resource Package": {
+        "version": "14.0.23107",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20151228"
+      }
+    },
+    "root_group": "Administrators",
+    "time": {
+      "timezone": "W. Europe Daylight Time"
+    },
+    "recipes": [
+
+    ],
+    "expanded_run_list": [
+
+    ],
+    "roles": [
+
+    ]
+  }
+}

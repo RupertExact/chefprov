@@ -1,0 +1,26 @@
+---
+driver:
+  name: ec2
+  aws_ssh_key_id: adm_rbroad_dev
+  region: eu-west-16
+  availability_zone: a
+  subnet_id: subnet-0cef8f7a
+  instance_type: m3.medium
+  image_id: ami-1a225a69
+  security_group_ids: sg-24382443
+  retryable_tries: 120
+
+provisioner:
+  name: chef_zero
+
+ transport:
+	ssh_key: c:\users\rupert\.ssh\adm_rbroad_dev.pem
+
+platforms:
+  - name: windows-2012r2
+
+suites:
+  - name: default
+    run_list:
+      - recipe[settings_windows::default]
+    attributes:

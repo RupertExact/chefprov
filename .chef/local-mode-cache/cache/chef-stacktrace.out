@@ -1,0 +1,24 @@
+Generated at 2016-09-19 22:44:47 +0200
+RuntimeError: machine_batch[default2] (@recipe_files::D:/code/exactonline.io/chef/chefprov/cookbooks/cptest/recipes/aws-vpc.rb line 30) had an error: RuntimeError: Instance mario-a (i-05112b2f58ab1a7cc on aws::eu-west-1) did not become connectable within 120 seconds
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.1.0/gems/chef-provisioning-aws-1.11.0/lib/chef/provisioning/aws_driver/driver.rb:1324:in `block in wait_for_transport'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.1.0/gems/retryable-2.0.4/lib/retryable.rb:68:in `retryable'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.1.0/gems/chef-provisioning-aws-1.11.0/lib/chef/provisioning/aws_driver/driver.rb:1317:in `wait_for_transport'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.1.0/gems/chef-provisioning-aws-1.11.0/lib/chef/provisioning/aws_driver/driver.rb:704:in `ready_machine'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.1.0/gems/chef-provisioning-1.9.1/lib/chef/provisioning/driver.rb:250:in `block in ready_machines'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.1.0/gems/chef-12.13.37-universal-mingw32/lib/chef/chef_fs/parallelizer/parallel_enumerable.rb:267:in `call'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.1.0/gems/chef-12.13.37-universal-mingw32/lib/chef/chef_fs/parallelizer/parallel_enumerable.rb:267:in `process_input'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.1.0/gems/chef-12.13.37-universal-mingw32/lib/chef/chef_fs/parallelizer/parallel_enumerable.rb:257:in `process_one'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.1.0/gems/chef-12.13.37-universal-mingw32/lib/chef/chef_fs/parallelizer.rb:93:in `call'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.1.0/gems/chef-12.13.37-universal-mingw32/lib/chef/chef_fs/parallelizer.rb:93:in `worker_loop'
+
+>>>> Caused by RuntimeError: Instance mario-a (i-05112b2f58ab1a7cc on aws::eu-west-1) did not become connectable within 120 seconds
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.1.0/gems/chef-provisioning-aws-1.11.0/lib/chef/provisioning/aws_driver/driver.rb:1324:in `block in wait_for_transport'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.1.0/gems/retryable-2.0.4/lib/retryable.rb:68:in `retryable'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.1.0/gems/chef-provisioning-aws-1.11.0/lib/chef/provisioning/aws_driver/driver.rb:1317:in `wait_for_transport'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.1.0/gems/chef-provisioning-aws-1.11.0/lib/chef/provisioning/aws_driver/driver.rb:704:in `ready_machine'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.1.0/gems/chef-provisioning-1.9.1/lib/chef/provisioning/driver.rb:250:in `block in ready_machines'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.1.0/gems/chef-12.13.37-universal-mingw32/lib/chef/chef_fs/parallelizer/parallel_enumerable.rb:267:in `call'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.1.0/gems/chef-12.13.37-universal-mingw32/lib/chef/chef_fs/parallelizer/parallel_enumerable.rb:267:in `process_input'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.1.0/gems/chef-12.13.37-universal-mingw32/lib/chef/chef_fs/parallelizer/parallel_enumerable.rb:257:in `process_one'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.1.0/gems/chef-12.13.37-universal-mingw32/lib/chef/chef_fs/parallelizer.rb:93:in `call'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.1.0/gems/chef-12.13.37-universal-mingw32/lib/chef/chef_fs/parallelizer.rb:93:in `worker_loop'
